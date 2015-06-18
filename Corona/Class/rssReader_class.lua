@@ -67,6 +67,7 @@ local function listener(xmlUrl,fileName)
 
 	local self = {}
 
+	-- xmlURLの文章を解析してLuaのテーブルとしてファイルへ保存
 	function self:getNewlyResponse()
 
 		local function networkListener( event )
