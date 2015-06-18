@@ -13,8 +13,8 @@
 module(...,package.seeall)
 
 -- Library
-local rss = require("Rss.rss")
-local atom = require("Rss.atom")
+local rss = require("Rssfunc.rss")
+local atom = require("Rssfunc.atom")
 
 -- RssFeedを<item>タグごとに返す
 local function returnRssFeed(file, path)
